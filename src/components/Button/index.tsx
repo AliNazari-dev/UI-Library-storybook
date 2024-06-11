@@ -1,5 +1,8 @@
-const Button = () => {
-  return <button className="text-blue-500">click on me</button>;
+import { ComponentProps } from "react";
+type ButtonProps = ComponentProps<"button">;
+
+const Button = ({ ...props }: ButtonProps) => {
+  return <button className="text-blue-500" {...props} />;
 };
 
 export default Button;
