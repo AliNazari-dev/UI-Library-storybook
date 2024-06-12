@@ -12,8 +12,11 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clx": "^1.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.5.0",
